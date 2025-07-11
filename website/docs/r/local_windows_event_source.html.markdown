@@ -39,7 +39,6 @@ The following arguments are supported:
   * `category` - (Optional) The default source category for the source.
   * `fields` - (Optional) Map containing [key/value pairs][2].
   * `denylist` - (Optional) Comma-separated list of valid path expressions from which logs will not be collected.
-    Example: "denylist":["/var/log/**/*.bak","/var/oldlog/*.log"]
 
 ### See also
   * [Common Source Properties](https://github.com/terraform-providers/terraform-provider-sumologic/tree/master/website#common-source-properties)
