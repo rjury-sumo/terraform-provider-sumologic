@@ -21,8 +21,9 @@ resource "sumologic_local_windows_event_log_source" "local" {
   description      = "windows system log"
   category         = "/os/windows/system"
   collector_id     = "${sumologic_installed_collector.installed_collector.id}"
-  path_expression  = "/Applications/Sumo Logic Collector/logs/*.log.*"
+  log_names  = ["System"]
 }
+
   ```
 
 ## Argument Reference
